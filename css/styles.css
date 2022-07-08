@@ -97,6 +97,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--second-text-color);
+  transition: color 250ms var(--transition-cubic);
 }
 
 .site-nav .link:hover,
@@ -138,6 +139,8 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
+
+  transition: color 250ms var(--transition-cubic);
 }
 
 .site-nav .link.current {
@@ -220,7 +223,6 @@ img {
 
   opacity: 1;
   transform: scaleX(100%);
-
 
   transition: opacity 250ms var(--transition-cubic),
     transform 250ms var(--transition-cubic);
@@ -411,6 +413,9 @@ img {
 
   background-color: inherit;
   fill: var(--icon-color);
+
+  transition: background-color 250ms var(--transition-cubic),
+    fill 250ms var(--transition-cubic);
 }
 .team .social-icon .link:hover,
 .team .social-icon .link:focus {
@@ -431,6 +436,8 @@ img {
 
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+
+  transition: border-color 250ms var(--transition-cubic);
 }
 
 .clients .item:hover,
@@ -449,6 +456,8 @@ img {
   width: 170px;
   height: 92px;
   fill: var(--icon-color);
+
+  transition: fill 250ms var(--transition-cubic);
 }
 .clients .item .link:hover,
 .clients .item .link:focus {
@@ -487,6 +496,9 @@ img {
   padding: 6px 22px;
   border-radius: 4px;
   border: none;
+
+  transition: color 250ms var(--transition-cubic),
+  background-color 250ms var(--transition-cubic);
 }
 
 .filter .button:hover,
@@ -616,6 +628,8 @@ img {
   line-height: 1.71;
   font-style: normal;
   color: var(--third-text-color);
+
+  transition: color 250ms var(--transition-cubic);
 }
 
 .contacts-footer .map {
@@ -652,6 +666,8 @@ img {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--contrast-text-color);
+
+  transition: background-color 250ms var(--transition-cubic);
 }
 
 .footer .social-icon .link:hover,

@@ -221,13 +221,14 @@ img {
   opacity: 1;
   transform: scaleX(100%);
 
+
   transition: opacity 250ms var(--transition-cubic),
     transform 250ms var(--transition-cubic);
 }
 
 .backdrop-hero.is-hidden {
   pointer-events: none;
-  visibility: hidden;
+  /* visibility: hidden; */
 
   opacity: 0;
   transform: scaleX(0);
